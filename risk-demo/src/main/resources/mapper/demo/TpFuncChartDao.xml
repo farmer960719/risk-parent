@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TpFuncChartDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TpFuncChartEntity" id="tpFuncChartMap">
+        <result property="id" column="ID"/>
+        <result property="funcId" column="FUNC_ID"/>
+        <result property="showType" column="SHOW_TYPE"/>
+        <result property="chartLayout" column="CHART_LAYOUT"/>
+        <result property="chartType" column="CHART_TYPE"/>
+        <result property="chartName" column="CHART_NAME"/>
+        <result property="xAxis" column="X_AXIS"/>
+        <result property="lYaxis" column="L_YAXIS"/>
+        <result property="zAxis" column="Z_AXIS"/>
+        <result property="orShowsec" column="OR_SHOWSEC"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="createPrsn" column="CREATE_PRSN"/>
+        <result property="mdfyPrsn" column="MDFY_PRSN"/>
+        <result property="mdfyTime" column="MDFY_TIME"/>
+        <result property="rYaxis" column="R_YAXIS"/>
+        <result property="lYaxisunit" column="L_YAXISUNIT"/>
+        <result property="rYaxisunit" column="R_YAXISUNIT"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfVolatilityFiDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfVolatilityFiEntity" id="tsPfVolatilityFiMap">
+        <result property="id" column="ID"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="dateType" column="DATE_TYPE"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="sharpe" column="SHARPE"/>
+        <result property="treynor" column="TREYNOR"/>
+        <result property="informationratio" column="INFORMATIONRATIO"/>
+        <result property="sortino" column="SORTINO"/>
+        <result property="m2" column="M2"/>
+        <result property="trackingerror" column="TRACKINGERROR"/>
+        <result property="r2" column="R2"/>
+        <result property="deviation" column="DEVIATION"/>
+        <result property="variance" column="VARIANCE"/>
+        <result property="compareAverageDeviation" column="COMPARE_AVERAGE_DEVIATION"/>
+        <result property="jensen" column="JENSEN"/>
+        <result property="beta" column="BETA"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="pushState" column="PUSH_STATE"/>
+        <result property="beginDate" column="BEGIN_DATE"/>
+        <result property="endDate" column="END_DATE"/>
+        <result property="compareZeroDeviation" column="COMPARE_ZERO_DEVIATION"/>
+        <result property="compareBhmkDeviation" column="COMPARE_BHMK_DEVIATION"/>
+        <result property="compareNoriskDeviation" column="COMPARE_NORISK_DEVIATION"/>
+        <result property="downrisk" column="DOWNRISK"/>
+        <result property="maxdrawdown" column="MAXDRAWDOWN"/>
+        <result property="alpha" column="ALPHA"/>
+        <result property="bmDeviation" column="BM_DEVIATION"/>
+    </resultMap>
+
+
+</mapper>

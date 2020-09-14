@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfTrackingerrorDcmpDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfTrackingerrorDcmpEntity" id="tsPfTrackingerrorDcmpMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="treeId" column="TREE_ID"/>
+        <result property="symbolId" column="SYMBOL_ID"/>
+        <result property="exchTypeD" column="EXCH_TYPE_D"/>
+        <result property="te" column="TE"/>
+        <result property="mte" column="MTE"/>
+        <result property="cte" column="CTE"/>
+        <result property="ite" column="ITE"/>
+        <result property="wi" column="WI"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="atLevel" column="AT_LEVEL"/>
+        <result property="nodeId" column="NODE_ID"/>
+        <result property="symbolCode" column="SYMBOL_CODE"/>
+        <result property="pte" column="PTE"/>
+    </resultMap>
+
+
+</mapper>

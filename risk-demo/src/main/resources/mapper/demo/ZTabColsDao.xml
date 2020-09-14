@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.ZTabColsDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.ZTabColsEntity" id="zTabColsMap">
+        <result property="tableName" column="TABLE_NAME"/>
+        <result property="columnName" column="COLUMN_NAME"/>
+        <result property="dataType" column="DATA_TYPE"/>
+        <result property="columnId" column="COLUMN_ID"/>
+    </resultMap>
+
+
+</mapper>

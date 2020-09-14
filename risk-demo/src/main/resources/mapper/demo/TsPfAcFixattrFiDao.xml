@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfAcFixattrFiDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfAcFixattrFiEntity" id="tsPfAcFixattrFiMap">
+        <result property="id" column="ID"/>
+        <result property="painnercode" column="PAINNERCODE"/>
+        <result property="bizdate" column="BIZDATE"/>
+        <result property="assetcode" column="ASSETCODE"/>
+        <result property="timewindow" column="TIMEWINDOW"/>
+        <result property="hisconfig" column="HISCONFIG"/>
+        <result property="modeltype" column="MODELTYPE"/>
+        <result property="yrattr" column="YRATTR"/>
+        <result property="irtscode" column="IRTSCODE"/>
+        <result property="assetrate" column="ASSETRATE"/>
+        <result property="bmrate" column="BMRATE"/>
+        <result property="riskfreebmrate" column="RISKFREEBMRATE"/>
+        <result property="assetweight" column="ASSETWEIGHT"/>
+        <result property="bmweight" column="BMWEIGHT"/>
+        <result property="assetmdur" column="ASSETMDUR"/>
+        <result property="bmmdur" column="BMMDUR"/>
+        <result property="configeffect" column="CONFIGEFFECT"/>
+        <result property="wconfigeffect" column="WCONFIGEFFECT"/>
+        <result property="wselecteffect" column="WSELECTEFFECT"/>
+        <result property="dureffbrinson" column="DUREFFBRINSON"/>
+        <result property="bconfigeffect" column="BCONFIGEFFECT"/>
+        <result property="bselecteffect" column="BSELECTEFFECT"/>
+        <result property="assetincomeeffect" column="ASSETINCOMEEFFECT"/>
+        <result property="bmincomeeffect" column="BMINCOMEEFFECT"/>
+        <result property="assettreasuryeffect" column="ASSETTREASURYEFFECT"/>
+        <result property="bmtreasuryeffect" column="BMTREASURYEFFECT"/>
+        <result property="assetspreadeffect" column="ASSETSPREADEFFECT"/>
+        <result property="bmspreadeffect" column="BMSPREADEFFECT"/>
+        <result property="cassetselectioneffect" column="CASSETSELECTIONEFFECT"/>
+        <result property="cbmselectioneffect" column="CBMSELECTIONEFFECT"/>
+        <result property="incomeallocation" column="INCOMEALLOCATION"/>
+        <result property="incomeselection" column="INCOMESELECTION"/>
+        <result property="otheryieldcurveeffects" column="OTHERYIELDCURVEEFFECTS"/>
+        <result property="spreadallocation" column="SPREADALLOCATION"/>
+        <result property="issueselection" column="ISSUESELECTION"/>
+        <result property="ratetype" column="RATETYPE"/>
+        <result property="planid" column="PLANID"/>
+        <result property="beginDate" column="BEGIN_DATE"/>
+        <result property="endDate" column="END_DATE"/>
+    </resultMap>
+
+
+</mapper>

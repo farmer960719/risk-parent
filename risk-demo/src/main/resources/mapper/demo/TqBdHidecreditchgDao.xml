@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TqBdHidecreditchgDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TqBdHidecreditchgEntity" id="tqBdHidecreditchgMap">
+        <result property="id" column="ID"/>
+        <result property="secode" column="SECODE"/>
+        <result property="creditsource" column="CREDITSOURCE"/>
+        <result property="publishdate" column="PUBLISHDATE"/>
+        <result property="updatedate" column="UPDATEDATE"/>
+        <result property="begindate" column="BEGINDATE"/>
+        <result property="enddate" column="ENDDATE"/>
+        <result property="creditmod" column="CREDITMOD"/>
+        <result property="rawcredit" column="RAWCREDIT"/>
+        <result property="rawradjustdir" column="RAWRADJUSTDIR"/>
+        <result property="lastrawcredit" column="LASTRAWCREDIT"/>
+        <result property="rawdiff" column="RAWDIFF"/>
+        <result property="stdcredit" column="STDCREDIT"/>
+        <result property="stdradjustdir" column="STDRADJUSTDIR"/>
+        <result property="laststdcredit" column="LASTSTDCREDIT"/>
+        <result property="stddiff" column="STDDIFF"/>
+        <result property="ycurvecode" column="YCURVECODE"/>
+        <result property="ycurvename" column="YCURVENAME"/>
+        <result property="sourceid" column="SOURCEID"/>
+        <result property="status" column="STATUS"/>
+        <result property="isnew" column="ISNEW"/>
+        <result property="isvalid" column="ISVALID"/>
+        <result property="tmstamp" column="TMSTAMP"/>
+        <result property="entrydate" column="ENTRYDATE"/>
+        <result property="entrytime" column="ENTRYTIME"/>
+    </resultMap>
+
+
+</mapper>

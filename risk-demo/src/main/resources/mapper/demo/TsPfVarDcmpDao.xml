@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfVarDcmpDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfVarDcmpEntity" id="tsPfVarDcmpMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="datatype" column="DATATYPE"/>
+        <result property="assetclassnode" column="ASSETCLASSNODE"/>
+        <result property="seccode" column="SECCODE"/>
+        <result property="exchange" column="EXCHANGE"/>
+        <result property="var" column="VAR"/>
+        <result property="mvar" column="MVAR"/>
+        <result property="cvar" column="CVAR"/>
+        <result property="ivar" column="IVAR"/>
+        <result property="wi" column="WI"/>
+        <result property="marketvalue" column="MARKETVALUE"/>
+        <result property="varrate" column="VARRATE"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+    </resultMap>
+
+
+</mapper>

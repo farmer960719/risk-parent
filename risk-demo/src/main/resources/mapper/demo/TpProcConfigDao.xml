@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TpProcConfigDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TpProcConfigEntity" id="tpProcConfigMap">
+        <result property="groupId" column="GROUP_ID"/>
+        <result property="sta" column="STA"/>
+        <result property="used" column="USED"/>
+        <result property="sid" column="SID"/>
+        <result property="ipAddress" column="IP_ADDRESS"/>
+        <result property="machine" column="MACHINE"/>
+        <result property="osUser" column="OS_USER"/>
+        <result property="lastTime" column="LAST_TIME"/>
+        <result property="remark" column="REMARK"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfExtinfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfExtinfoEntity" id="tsPfExtinfoMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="depositaryFee" column="DEPOSITARY_FEE"/>
+        <result property="performanceFee" column="PERFORMANCE_FEE"/>
+        <result property="bComm" column="B_COMM"/>
+        <result property="sComm" column="S_COMM"/>
+        <result property="comm" column="COMM"/>
+        <result property="bTdFee" column="B_TD_FEE"/>
+        <result property="sTdFee" column="S_TD_FEE"/>
+        <result property="tdFee2" column="TD_FEE2"/>
+        <result property="bActlAmt" column="B_ACTL_AMT"/>
+        <result property="sActlAmt" column="S_ACTL_AMT"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="pfExtinfo1" column="PF_EXTINFO1"/>
+        <result property="pfExtinfo2" column="PF_EXTINFO2"/>
+        <result property="pfExtinfo3" column="PF_EXTINFO3"/>
+        <result property="pfExtinfo4" column="PF_EXTINFO4"/>
+    </resultMap>
+
+
+</mapper>

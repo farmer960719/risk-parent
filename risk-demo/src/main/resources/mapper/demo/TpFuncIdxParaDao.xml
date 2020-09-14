@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TpFuncIdxParaDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TpFuncIdxParaEntity" id="tpFuncIdxParaMap">
+        <result property="id" column="ID"/>
+        <result property="funcId" column="FUNC_ID"/>
+        <result property="columnId" column="COLUMN_ID"/>
+        <result property="idcId" column="IDC_ID"/>
+        <result property="paraNum" column="PARA_NUM"/>
+        <result property="paraId" column="PARA_ID"/>
+        <result property="paraValue" column="PARA_VALUE"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="createPrsn" column="CREATE_PRSN"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="mdfyTime" column="MDFY_TIME"/>
+        <result property="mdfyPrsn" column="MDFY_PRSN"/>
+        <result property="isCfg" column="IS_CFG"/>
+    </resultMap>
+
+
+</mapper>

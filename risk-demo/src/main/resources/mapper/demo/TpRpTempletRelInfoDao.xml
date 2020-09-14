@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TpRpTempletRelInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TpRpTempletRelInfoEntity" id="tpRpTempletRelInfoMap">
+        <result property="id" column="ID"/>
+        <result property="parentId" column="PARENT_ID"/>
+        <result property="templetId" column="TEMPLET_ID"/>
+        <result property="templetName" column="TEMPLET_NAME"/>
+        <result property="pfNum" column="PF_NUM"/>
+        <result property="fmemo" column="FMEMO"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="createPrsn" column="CREATE_PRSN"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="mdfyPrsn" column="MDFY_PRSN"/>
+        <result property="mdfyTime" column="MDFY_TIME"/>
+        <result property="temPfName" column="TEM_PF_NAME"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TmpTpPfSupdateMkDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TmpTpPfSupdateMkEntity" id="tmpTpPfSupdateMkMap">
+        <result property="pfId" column="PF_ID"/>
+        <result property="srcSys" column="SRC_SYS"/>
+        <result property="pfType" column="PF_TYPE"/>
+        <result property="pfNumebr" column="PF_NUMEBR"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="upBizDate" column="UP_BIZ_DATE"/>
+        <result property="id" column="ID"/>
+    </resultMap>
+
+
+</mapper>

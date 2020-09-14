@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfVolatilityDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfVolatilityEntity" id="tsPfVolatilityMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="sharpe" column="SHARPE"/>
+        <result property="treynor" column="TREYNOR"/>
+        <result property="informationratio" column="INFORMATIONRATIO"/>
+        <result property="sortino" column="SORTINO"/>
+        <result property="m2" column="M2"/>
+        <result property="trackingerror" column="TRACKINGERROR"/>
+        <result property="r2" column="R2"/>
+        <result property="deviation" column="DEVIATION"/>
+        <result property="variance" column="VARIANCE"/>
+        <result property="downrisk" column="DOWNRISK"/>
+        <result property="jensen" column="JENSEN"/>
+        <result property="beta" column="BETA"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+    </resultMap>
+
+
+</mapper>

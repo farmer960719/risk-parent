@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TpHissceneIndexRelDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TpHissceneIndexRelEntity" id="tpHissceneIndexRelMap">
+        <result property="id" column="ID"/>
+        <result property="sceneId" column="SCENE_ID"/>
+        <result property="stockIndex" column="STOCK_INDEX"/>
+        <result property="weight" column="WEIGHT"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="stockIndexNum" column="STOCK_INDEX_NUM"/>
+    </resultMap>
+
+
+</mapper>

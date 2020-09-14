@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfAcBhmkInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfAcBhmkInfoEntity" id="tsPfAcBhmkInfoMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="treeId" column="TREE_ID"/>
+        <result property="nodeId" column="NODE_ID"/>
+        <result property="yldrate" column="YLDRATE"/>
+        <result property="risklessYldrate" column="RISKLESS_YLDRATE"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="isValid" column="IS_VALID"/>
+    </resultMap>
+
+
+</mapper>

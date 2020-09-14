@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfMddDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfMddEntity" id="tsPfMddMap">
+        <result property="id" column="ID"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="beginDate" column="BEGIN_DATE"/>
+        <result property="endDate" column="END_DATE"/>
+        <result property="dateType" column="DATE_TYPE"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="mddNum" column="MDD_NUM"/>
+        <result property="mddBeginDate" column="MDD_BEGIN_DATE"/>
+        <result property="mddEndDate" column="MDD_END_DATE"/>
+        <result property="mddYldrate" column="MDD_YLDRATE"/>
+        <result property="reBeginDate" column="RE_BEGIN_DATE"/>
+        <result property="reEndDate" column="RE_END_DATE"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+    </resultMap>
+
+
+</mapper>

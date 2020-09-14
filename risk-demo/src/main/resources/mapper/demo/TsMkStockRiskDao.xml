@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsMkStockRiskDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsMkStockRiskEntity" id="tsMkStockRiskMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="symbolId" column="SYMBOL_ID"/>
+        <result property="beta" column="BETA"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="symbolCode" column="SYMBOL_CODE"/>
+        <result property="exchTypeD" column="EXCH_TYPE_D"/>
+        <result property="symbolTypeD" column="SYMBOL_TYPE_D"/>
+    </resultMap>
+
+
+</mapper>

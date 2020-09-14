@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsMkSecQuotationDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsMkSecQuotationEntity" id="tsMkSecQuotationMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="symbolId" column="SYMBOL_ID"/>
+        <result property="symbolCode" column="SYMBOL_CODE"/>
+        <result property="exchTypeD" column="EXCH_TYPE_D"/>
+        <result property="symbolTypeD" column="SYMBOL_TYPE_D"/>
+        <result property="symbolName" column="SYMBOL_NAME"/>
+        <result property="lcloseNetprice" column="LCLOSE_NETPRICE"/>
+        <result property="lcloseFullprice" column="LCLOSE_FULLPRICE"/>
+        <result property="closeNetprice" column="CLOSE_NETPRICE"/>
+        <result property="closeFullprice" column="CLOSE_FULLPRICE"/>
+        <result property="openPrice" column="OPEN_PRICE"/>
+        <result property="highPrice" column="HIGH_PRICE"/>
+        <result property="lowPrice" column="LOW_PRICE"/>
+        <result property="tranQut" column="TRAN_QUT"/>
+        <result property="tranAmt" column="TRAN_AMT"/>
+        <result property="tranNum" column="TRAN_NUM"/>
+        <result property="changeMargin" column="CHANGE_MARGIN"/>
+        <result property="flowMktcap" column="FLOW_MKTCAP"/>
+        <result property="totMktcap" column="TOT_MKTCAP"/>
+        <result property="turnRate" column="TURN_RATE"/>
+        <result property="dataSrc" column="DATA_SRC"/>
+        <result property="dataSta" column="DATA_STA"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="avgPrice" column="AVG_PRICE"/>
+    </resultMap>
+
+
+</mapper>

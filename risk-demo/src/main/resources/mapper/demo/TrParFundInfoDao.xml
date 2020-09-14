@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TrParFundInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TrParFundInfoEntity" id="trParFundInfoMap">
+        <result property="id" column="ID"/>
+        <result property="jjsc" column="JJSC"/>
+        <result property="jjdm" column="JJDM"/>
+        <result property="jjmc" column="JJMC"/>
+        <result property="jjlx" column="JJLX"/>
+        <result property="glr" column="GLR"/>
+        <result property="tgr" column="TGR"/>
+        <result property="dygx" column="DYGX"/>
+        <result property="sbjjlx" column="SBJJLX"/>
+        <result property="glrmc" column="GLRMC"/>
+        <result property="jzfs" column="JZFS"/>
+        <result property="timeMark" column="TIME_MARK"/>
+    </resultMap>
+
+
+</mapper>

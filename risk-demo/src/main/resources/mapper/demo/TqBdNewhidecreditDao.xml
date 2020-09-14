@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TqBdNewhidecreditDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TqBdNewhidecreditEntity" id="tqBdNewhidecreditMap">
+        <result property="id" column="ID"/>
+        <result property="secode" column="SECODE"/>
+        <result property="creditsource" column="CREDITSOURCE"/>
+        <result property="compcode" column="COMPCODE"/>
+        <result property="hidcreatedate" column="HIDCREATEDATE"/>
+        <result property="stdcredit" column="STDCREDIT"/>
+        <result property="compcreditcompcode" column="COMPCREDITCOMPCODE"/>
+        <result property="compcreditcompname" column="COMPCREDITCOMPNAME"/>
+        <result property="compcreditdate" column="COMPCREDITDATE"/>
+        <result property="compcredit" column="COMPCREDIT"/>
+        <result property="compcreditdiff" column="COMPCREDITDIFF"/>
+        <result property="bdcreditcompcode" column="BDCREDITCOMPCODE"/>
+        <result property="bdcreditcompname" column="BDCREDITCOMPNAME"/>
+        <result property="bdcreditdate" column="BDCREDITDATE"/>
+        <result property="bdcredit" column="BDCREDIT"/>
+        <result property="bdcreditdiff" column="BDCREDITDIFF"/>
+        <result property="hidecreditdate" column="HIDECREDITDATE"/>
+        <result property="hidecreditstatus" column="HIDECREDITSTATUS"/>
+        <result property="sourceid" column="SOURCEID"/>
+        <result property="isvalid" column="ISVALID"/>
+        <result property="tmstamp" column="TMSTAMP"/>
+        <result property="entrydate" column="ENTRYDATE"/>
+        <result property="entrytime" column="ENTRYTIME"/>
+    </resultMap>
+
+
+</mapper>

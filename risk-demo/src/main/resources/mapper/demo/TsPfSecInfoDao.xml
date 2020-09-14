@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfSecInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfSecInfoEntity" id="tsPfSecInfoMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="symbolId" column="SYMBOL_ID"/>
+        <result property="symbolCode" column="SYMBOL_CODE"/>
+        <result property="secCode" column="SEC_CODE"/>
+        <result property="marketCode" column="MARKET_CODE"/>
+        <result property="attypeIdD" column="ATTYPE_ID_D"/>
+        <result property="attypeExtIdD" column="ATTYPE_EXT_ID_D"/>
+        <result property="finAttrIdD" column="FIN_ATTR_ID_D"/>
+        <result property="hdAttrIdD" column="HD_ATTR_ID_D"/>
+        <result property="secSrc" column="SEC_SRC"/>
+        <result property="orLmt" column="OR_LMT"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="hdQty" column="HD_QTY"/>
+        <result property="costSc" column="COST_SC"/>
+        <result property="netcost" column="NETCOST"/>
+        <result property="hpEvIv" column="HP_EV_IV"/>
+        <result property="netmv" column="NETMV"/>
+        <result property="accrIest" column="ACCR_IEST"/>
+        <result property="accrAmor" column="ACCR_AMOR"/>
+        <result property="hpDimiProvn" column="HP_DIMI_PROVN"/>
+        <result property="preNetmv" column="PRE_NETMV"/>
+        <result property="preNetcost" column="PRE_NETCOST"/>
+        <result property="preAccrIest" column="PRE_ACCR_IEST"/>
+        <result property="bTdQty" column="B_TD_QTY"/>
+        <result property="bAccrIest" column="B_ACCR_IEST"/>
+        <result property="bAccrAmor" column="B_ACCR_AMOR"/>
+        <result property="bActlAmt" column="B_ACTL_AMT"/>
+        <result property="bComm" column="B_COMM"/>
+        <result property="bTdFee" column="B_TD_FEE"/>
+        <result property="bEvIv" column="B_EV_IV"/>
+        <result property="sTdQty" column="S_TD_QTY"/>
+        <result property="sAccrIest" column="S_ACCR_IEST"/>
+        <result property="sAccrAmor" column="S_ACCR_AMOR"/>
+        <result property="sActlAmt" column="S_ACTL_AMT"/>
+        <result property="sComm" column="S_COMM"/>
+        <result property="sTdFee" column="S_TD_FEE"/>
+        <result property="sEvIv" column="S_EV_IV"/>
+        <result property="unreaInc" column="UNREA_INC"/>
+        <result property="iestInc" column="IEST_INC"/>
+        <result property="amorInc" column="AMOR_INC"/>
+        <result property="bonusInc" column="BONUS_INC"/>
+        <result property="difInc" column="DIF_INC"/>
+        <result property="pyblInc" column="PYBL_INC"/>
+        <result property="dimiProvn" column="DIMI_PROVN"/>
+        <result property="peInc" column="PE_INC"/>
+        <result property="otrInc" column="OTR_INC"/>
+        <result property="otrFee" column="OTR_FEE"/>
+        <result property="reaInc" column="REA_INC"/>
+        <result property="plAmt" column="PL_AMT"/>
+        <result property="cashBonus" column="CASH_BONUS"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="fullcost" column="FULLCOST"/>
+        <result property="fullmv" column="FULLMV"/>
+        <result property="evPrc" column="EV_PRC"/>
+        <result property="unreaIncC" column="UNREA_INC_C"/>
+        <result property="unreaIncS" column="UNREA_INC_S"/>
+        <result property="pfmodeIdD" column="PFMODE_ID_D"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfZtinfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfZtinfoEntity" id="tsPfZtinfoMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="nvMvZt" column="NV_MV_ZT"/>
+        <result property="plAmtZt" column="PL_AMT_ZT"/>
+        <result property="nvMvExpe" column="NV_MV_EXPE"/>
+        <result property="plAmtExpe" column="PL_AMT_EXPE"/>
+        <result property="yldrateZt" column="YLDRATE_ZT"/>
+        <result property="yldrateExpe" column="YLDRATE_EXPE"/>
+        <result property="nvMvCash" column="NV_MV_CASH"/>
+        <result property="plAmtCash" column="PL_AMT_CASH"/>
+        <result property="yldrateCash" column="YLDRATE_CASH"/>
+        <result property="nvMvStk" column="NV_MV_STK"/>
+        <result property="plAmtStk" column="PL_AMT_STK"/>
+        <result property="yldrateStk" column="YLDRATE_STK"/>
+        <result property="nvMvStkin" column="NV_MV_STKIN"/>
+        <result property="plAmtStkin" column="PL_AMT_STKIN"/>
+        <result property="yldrateStkin" column="YLDRATE_STKIN"/>
+        <result property="nvMvStkout" column="NV_MV_STKOUT"/>
+        <result property="plAmtStkout" column="PL_AMT_STKOUT"/>
+        <result property="yldrateStkout" column="YLDRATE_STKOUT"/>
+        <result property="nvMvFi" column="NV_MV_FI"/>
+        <result property="plAmtFi" column="PL_AMT_FI"/>
+        <result property="yldrateFi" column="YLDRATE_FI"/>
+        <result property="nvMvPe" column="NV_MV_PE"/>
+        <result property="plAmtPe" column="PL_AMT_PE"/>
+        <result property="yldratePe" column="YLDRATE_PE"/>
+        <result property="bhmkYldrateStkin" column="BHMK_YLDRATE_STKIN"/>
+        <result property="bhmkYldrateStkout" column="BHMK_YLDRATE_STKOUT"/>
+        <result property="bhmkYldrateFi" column="BHMK_YLDRATE_FI"/>
+        <result property="bhmkYldratePe" column="BHMK_YLDRATE_PE"/>
+        <result property="bhmkYldrateCash" column="BHMK_YLDRATE_CASH"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+    </resultMap>
+
+
+</mapper>

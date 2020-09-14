@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TpGlExhibDatadict6Dao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TpGlExhibDatadict6Entity" id="tpGlExhibDatadict6Map">
+        <result property="id" column="ID"/>
+        <result property="classId" column="CLASS_ID"/>
+        <result property="className" column="CLASS_NAME"/>
+        <result property="classEname" column="CLASS_ENAME"/>
+        <result property="keyId" column="KEY_ID"/>
+        <result property="keyName" column="KEY_NAME"/>
+        <result property="keyEname" column="KEY_ENAME"/>
+        <result property="orValidD" column="OR_VALID_D"/>
+        <result property="memo" column="MEMO"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="sta" column="STA"/>
+        <result property="keySeq" column="KEY_SEQ"/>
+        <result property="cChecked" column="C_CHECKED"/>
+        <result property="checkId" column="CHECK_ID"/>
+        <result property="checkName" column="CHECK_NAME"/>
+        <result property="checkTime" column="CHECK_TIME"/>
+        <result property="createPrsn" column="CREATE_PRSN"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="mdfyPrsn" column="MDFY_PRSN"/>
+        <result property="mdfyTime" column="MDFY_TIME"/>
+    </resultMap>
+
+
+</mapper>

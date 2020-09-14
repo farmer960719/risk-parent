@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TrParOpenfundInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TrParOpenfundInfoEntity" id="trParOpenfundInfoMap">
+        <result property="id" column="ID"/>
+        <result property="zqdm" column="ZQDM"/>
+        <result property="netValue" column="NET_VALUE"/>
+        <result property="beginNet" column="BEGIN_NET"/>
+        <result property="totalNet" column="TOTAL_NET"/>
+        <result property="adjustNet" column="ADJUST_NET"/>
+        <result property="adjustInt" column="ADJUST_INT"/>
+        <result property="divDate" column="DIV_DATE"/>
+        <result property="dataDate" column="DATA_DATE"/>
+        <result property="market" column="MARKET"/>
+        <result property="fundType" column="FUND_TYPE"/>
+        <result property="fundStype" column="FUND_STYPE"/>
+        <result property="totalAmt" column="TOTAL_AMT"/>
+        <result property="batavalue" column="BATAVALUE"/>
+    </resultMap>
+
+
+</mapper>

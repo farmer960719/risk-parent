@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TrParTreeRelDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TrParTreeRelEntity" id="trParTreeRelMap">
+        <result property="id" column="ID"/>
+        <result property="pfChildId" column="PF_CHILD_ID"/>
+        <result property="pfParentId" column="PF_PARENT_ID"/>
+        <result property="pfChildName" column="PF_CHILD_NAME"/>
+        <result property="treeId" column="TREE_ID"/>
+        <result property="nodeLevel" column="NODE_LEVEL"/>
+        <result property="nodeSeq" column="NODE_SEQ"/>
+        <result property="orLeafnode" column="OR_LEAFNODE"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="mdfyPrsn" column="MDFY_PRSN"/>
+        <result property="createPrsn" column="CREATE_PRSN"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="mdfyTime" column="MDFY_TIME"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="treeType" column="TREE_TYPE"/>
+        <result property="pfTag" column="PF_TAG"/>
+    </resultMap>
+
+
+</mapper>

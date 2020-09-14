@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfSecIsFiDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfSecIsFiEntity" id="tsPfSecIsFiMap">
+        <result property="id" column="ID"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="symbolId" column="SYMBOL_ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="marketCap" column="MARKET_CAP"/>
+        <result property="growthValue" column="GROWTH_VALUE"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsMkBondCashflowDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsMkBondCashflowEntity" id="tsMkBondCashflowMap">
+        <result property="id" column="ID"/>
+        <result property="securityId" column="SECURITY_ID"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="beginDate" column="BEGIN_DATE"/>
+        <result property="endDate" column="END_DATE"/>
+        <result property="cashflowDate" column="CASHFLOW_DATE"/>
+        <result property="cashflow" column="CASHFLOW"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="cashflowType" column="CASHFLOW_TYPE"/>
+    </resultMap>
+
+
+</mapper>

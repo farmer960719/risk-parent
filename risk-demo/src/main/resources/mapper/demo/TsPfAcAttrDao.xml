@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfAcAttrDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfAcAttrEntity" id="tsPfAcAttrMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="attrId" column="ATTR_ID"/>
+        <result property="treeId" column="TREE_ID"/>
+        <result property="nodeId" column="NODE_ID"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="timewindow" column="TIMEWINDOW"/>
+        <result property="yldrate1" column="YLDRATE1"/>
+        <result property="yldrate2" column="YLDRATE2"/>
+        <result property="yldrate3" column="YLDRATE3"/>
+        <result property="weight1" column="WEIGHT1"/>
+        <result property="weight2" column="WEIGHT2"/>
+        <result property="weight3" column="WEIGHT3"/>
+        <result property="bmYldrate" column="BM_YLDRATE"/>
+        <result property="bmWeight" column="BM_WEIGHT"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="isValid" column="IS_VALID"/>
+    </resultMap>
+
+
+</mapper>

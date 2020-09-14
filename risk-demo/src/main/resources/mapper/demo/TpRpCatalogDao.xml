@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TpRpCatalogDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TpRpCatalogEntity" id="tpRpCatalogMap">
+        <result property="fid" column="FID"/>
+        <result property="pid" column="PID"/>
+        <result property="fname" column="FNAME"/>
+        <result property="flever" column="FLEVER"/>
+        <result property="fmemo" column="FMEMO"/>
+        <result property="fcreateTime" column="FCREATE_TIME"/>
+        <result property="fcreatorId" column="FCREATOR_ID"/>
+        <result property="feditTime" column="FEDIT_TIME"/>
+        <result property="feditorId" column="FEDITOR_ID"/>
+        <result property="forder" column="FORDER"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="orValidD" column="OR_VALID_D"/>
+        <result property="fdeletetorId" column="FDELETETOR_ID"/>
+        <result property="fdeleteTime" column="FDELETE_TIME"/>
+    </resultMap>
+
+
+</mapper>

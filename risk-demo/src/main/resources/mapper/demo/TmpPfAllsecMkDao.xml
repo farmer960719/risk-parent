@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TmpPfAllsecMkDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TmpPfAllsecMkEntity" id="tmpPfAllsecMkMap">
+        <result property="securityId" column="SECURITY_ID"/>
+        <result property="symbolId" column="SYMBOL_ID"/>
+        <result property="symbolCode" column="SYMBOL_CODE"/>
+        <result property="exchTypeD" column="EXCH_TYPE_D"/>
+        <result property="symbolTypeD" column="SYMBOL_TYPE_D"/>
+        <result property="listDate" column="LIST_DATE"/>
+        <result property="delistDate" column="DELIST_DATE"/>
+    </resultMap>
+
+
+</mapper>

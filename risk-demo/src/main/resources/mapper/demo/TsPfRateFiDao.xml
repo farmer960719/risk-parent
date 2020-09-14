@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfRateFiDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfRateFiEntity" id="tsPfRateFiMap">
+        <result property="id" column="ID"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="dateType" column="DATE_TYPE"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="cwYldrate" column="CW_YLDRATE"/>
+        <result property="turnoverRate" column="TURNOVER_RATE"/>
+        <result property="tdRate" column="TD_RATE"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="beginDate" column="BEGIN_DATE"/>
+        <result property="endDate" column="END_DATE"/>
+        <result property="twYldrate" column="TW_YLDRATE"/>
+        <result property="maxDropdown" column="MAX_DROPDOWN"/>
+        <result property="raroc" column="RAROC"/>
+    </resultMap>
+
+
+</mapper>

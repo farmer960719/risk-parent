@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TpFuncInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TpFuncInfoEntity" id="tpFuncInfoMap">
+        <result property="id" column="ID"/>
+        <result property="funcId" column="FUNC_ID"/>
+        <result property="funcName" column="FUNC_NAME"/>
+        <result property="funcMemo" column="FUNC_MEMO"/>
+        <result property="funcFlag" column="FUNC_FLAG"/>
+        <result property="funcQuery" column="FUNC_QUERY"/>
+        <result property="funcAtlevel" column="FUNC_ATLEVEL"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="createPrsn" column="CREATE_PRSN"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="mdfyPrsn" column="MDFY_PRSN"/>
+        <result property="mdfyTime" column="MDFY_TIME"/>
+        <result property="secTypeCod" column="SEC_TYPE_COD"/>
+        <result property="showType" column="SHOW_TYPE"/>
+        <result property="cnyType" column="CNY_TYPE"/>
+        <result property="treeId" column="TREE_ID"/>
+        <result property="hpShowtype" column="HP_SHOWTYPE"/>
+        <result property="orShowliability" column="OR_SHOWLIABILITY"/>
+        <result property="workMode" column="WORK_MODE"/>
+    </resultMap>
+
+
+</mapper>

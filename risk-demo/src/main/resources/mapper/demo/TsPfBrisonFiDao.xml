@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfBrisonFiDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfBrisonFiEntity" id="tsPfBrisonFiMap">
+        <result property="id" column="ID"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="dateType" column="DATE_TYPE"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="pfYldrate" column="PF_YLDRATE"/>
+        <result property="bmYldrate" column="BM_YLDRATE"/>
+        <result property="allocative" column="ALLOCATIVE"/>
+        <result property="selection" column="SELECTION"/>
+        <result property="crosstalk" column="CROSSTALK"/>
+        <result property="treeId" column="TREE_ID"/>
+        <result property="nodeId" column="NODE_ID"/>
+        <result property="beginDate" column="BEGIN_DATE"/>
+        <result property="endDate" column="END_DATE"/>
+        <result property="pfWeight" column="PF_WEIGHT"/>
+        <result property="bmWeight" column="BM_WEIGHT"/>
+    </resultMap>
+
+
+</mapper>

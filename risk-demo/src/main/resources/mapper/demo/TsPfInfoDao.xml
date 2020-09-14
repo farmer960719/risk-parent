@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfInfoEntity" id="tsPfInfoMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="nvMv" column="NV_MV"/>
+        <result property="preNvMv" column="PRE_NV_MV"/>
+        <result property="atTotMv" column="AT_TOT_MV"/>
+        <result property="liabilityTotMv" column="LIABILITY_TOT_MV"/>
+        <result property="nvCost" column="NV_COST"/>
+        <result property="pfShare" column="PF_SHARE"/>
+        <result property="unitNv" column="UNIT_NV"/>
+        <result property="transinAmt" column="TRANSIN_AMT"/>
+        <result property="transoutAmt" column="TRANSOUT_AMT"/>
+        <result property="netTransinAmt" column="NET_TRANSIN_AMT"/>
+        <result property="unreaInc" column="UNREA_INC"/>
+        <result property="iestInc" column="IEST_INC"/>
+        <result property="amorInc" column="AMOR_INC"/>
+        <result property="bonusInc" column="BONUS_INC"/>
+        <result property="difInc" column="DIF_INC"/>
+        <result property="pyblInc" column="PYBL_INC"/>
+        <result property="dimiProvn" column="DIMI_PROVN"/>
+        <result property="peInc" column="PE_INC"/>
+        <result property="tdFee" column="TD_FEE"/>
+        <result property="otrInc" column="OTR_INC"/>
+        <result property="otrFee" column="OTR_FEE"/>
+        <result property="reaInc" column="REA_INC"/>
+        <result property="plAmt" column="PL_AMT"/>
+        <result property="unreaIncC" column="UNREA_INC_C"/>
+        <result property="adjustPrePl" column="ADJUST_PRE_PL"/>
+        <result property="transBalPl" column="TRANS_BAL_PL"/>
+        <result property="transBalCost" column="TRANS_BAL_COST"/>
+        <result property="transBalMv" column="TRANS_BAL_MV"/>
+        <result property="pePrepare" column="PE_PREPARE"/>
+        <result property="adminFee" column="ADMIN_FEE"/>
+        <result property="trustFee" column="TRUST_FEE"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="atTotCost" column="AT_TOT_COST"/>
+        <result property="unreaIncS" column="UNREA_INC_S"/>
+    </resultMap>
+
+
+</mapper>

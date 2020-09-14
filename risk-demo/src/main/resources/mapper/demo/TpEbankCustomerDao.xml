@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TpEbankCustomerDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TpEbankCustomerEntity" id="tpEbankCustomerMap">
+        <result property="id" column="ID"/>
+        <result property="ebankCstmrid" column="EBANK_CSTMRID"/>
+        <result property="ebankCstmrname" column="EBANK_CSTMRNAME"/>
+        <result property="memo" column="MEMO"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="createPrsn" column="CREATE_PRSN"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="mdfyPrsn" column="MDFY_PRSN"/>
+        <result property="mdfyTime" column="MDFY_TIME"/>
+    </resultMap>
+
+
+</mapper>

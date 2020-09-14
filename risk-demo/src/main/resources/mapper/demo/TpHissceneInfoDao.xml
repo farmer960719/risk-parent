@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TpHissceneInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TpHissceneInfoEntity" id="tpHissceneInfoMap">
+        <result property="id" column="ID"/>
+        <result property="sceneName" column="SCENE_NAME"/>
+        <result property="sceneDesc" column="SCENE_DESC"/>
+        <result property="sceneType" column="SCENE_TYPE"/>
+        <result property="beginDate" column="BEGIN_DATE"/>
+        <result property="endDate" column="END_DATE"/>
+        <result property="sence" column="SENCE"/>
+        <result property="ratecode" column="RATECODE"/>
+        <result property="timeWin" column="TIME_WIN"/>
+        <result property="pushDate" column="PUSH_DATE"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="createUser" column="CREATE_USER"/>
+        <result property="updateTime" column="UPDATE_TIME"/>
+        <result property="updateUser" column="UPDATE_USER"/>
+        <result property="updateMark" column="UPDATE_MARK"/>
+        <result property="mkSec" column="MK_SEC"/>
+        <result property="isValiable" column="IS_VALIABLE"/>
+    </resultMap>
+
+
+</mapper>

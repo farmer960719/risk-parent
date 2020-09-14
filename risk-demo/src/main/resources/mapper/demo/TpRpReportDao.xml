@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TpRpReportDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TpRpReportEntity" id="tpRpReportMap">
+        <result property="id" column="ID"/>
+        <result property="reportname" column="REPORTNAME"/>
+        <result property="fcreateTime" column="FCREATE_TIME"/>
+        <result property="fcreateId" column="FCREATE_ID"/>
+        <result property="reportSta" column="REPORT_STA"/>
+        <result property="filePath" column="FILE_PATH"/>
+        <result property="fcheckId" column="FCHECK_ID"/>
+        <result property="fcheckTime" column="FCHECK_TIME"/>
+        <result property="reportcode" column="REPORTCODE"/>
+        <result property="fsendId" column="FSEND_ID"/>
+        <result property="fsendTime" column="FSEND_TIME"/>
+        <result property="fmemo" column="FMEMO"/>
+        <result property="fsumbitId" column="FSUMBIT_ID"/>
+        <result property="fsumbitTime" column="FSUMBIT_TIME"/>
+        <result property="cChecked" column="C_CHECKED"/>
+        <result property="templetId" column="TEMPLET_ID"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="mdfyPrsn" column="MDFY_PRSN"/>
+        <result property="mdfyTime" column="MDFY_TIME"/>
+        <result property="customerId" column="CUSTOMER_ID"/>
+        <result property="reportIds" column="REPORT_IDS"/>
+        <result property="reportValues" column="REPORT_VALUES"/>
+        <result property="reportDisplayvalues" column="REPORT_DISPLAYVALUES"/>
+        <result property="reportType" column="REPORT_TYPE"/>
+        <result property="reportContent" column="REPORT_CONTENT"/>
+        <result property="reportEmail" column="REPORT_EMAIL"/>
+        <result property="copyEmail" column="COPY_EMAIL"/>
+        <result property="reportTheme" column="REPORT_THEME"/>
+        <result property="attachName" column="ATTACH_NAME"/>
+        <result property="reportLanguage" column="REPORT_LANGUAGE"/>
+    </resultMap>
+
+
+</mapper>

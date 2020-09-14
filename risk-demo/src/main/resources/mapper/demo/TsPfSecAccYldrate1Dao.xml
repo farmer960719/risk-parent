@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsPfSecAccYldrate1Dao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsPfSecAccYldrate1Entity" id="tsPfSecAccYldrate1Map">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="pfId" column="PF_ID"/>
+        <result property="symbolId" column="SYMBOL_ID"/>
+        <result property="symbolCode" column="SYMBOL_CODE"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="yldrate" column="YLDRATE"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="ccyType" column="CCY_TYPE"/>
+        <result property="exchTypeD" column="EXCH_TYPE_D"/>
+        <result property="symbolTypeD" column="SYMBOL_TYPE_D"/>
+        <result property="treeId" column="TREE_ID"/>
+        <result property="nodeId" column="NODE_ID"/>
+    </resultMap>
+
+
+</mapper>

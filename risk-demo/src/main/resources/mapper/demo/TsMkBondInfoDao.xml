@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.risk.demo.dao.TsMkBondInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.risk.demo.entity.TsMkBondInfoEntity" id="tsMkBondInfoMap">
+        <result property="id" column="ID"/>
+        <result property="bizDate" column="BIZ_DATE"/>
+        <result property="symbolId" column="SYMBOL_ID"/>
+        <result property="ytm" column="YTM"/>
+        <result property="mdur" column="MDUR"/>
+        <result property="madu" column="MADU"/>
+        <result property="prom" column="PROM"/>
+        <result property="promIr" column="PROM_IR"/>
+        <result property="leftPeriod" column="LEFT_PERIOD"/>
+        <result property="isValid" column="IS_VALID"/>
+        <result property="timeMark" column="TIME_MARK"/>
+        <result property="curIdD" column="CUR_ID_D"/>
+        <result property="symbolCode" column="SYMBOL_CODE"/>
+        <result property="exchTypeD" column="EXCH_TYPE_D"/>
+        <result property="symbolTypeD" column="SYMBOL_TYPE_D"/>
+        <result property="ytmL" column="YTM_L"/>
+        <result property="mdurL" column="MDUR_L"/>
+        <result property="promL" column="PROM_L"/>
+        <result property="leftPeriodL" column="LEFT_PERIOD_L"/>
+        <result property="ytmS" column="YTM_S"/>
+        <result property="mdurS" column="MDUR_S"/>
+        <result property="promS" column="PROM_S"/>
+        <result property="leftPeriodS" column="LEFT_PERIOD_S"/>
+        <result property="spreadDura" column="SPREAD_DURA"/>
+        <result property="spreadConv" column="SPREAD_CONV"/>
+        <result property="maduL" column="MADU_L"/>
+        <result property="maduS" column="MADU_S"/>
+    </resultMap>
+
+
+</mapper>
