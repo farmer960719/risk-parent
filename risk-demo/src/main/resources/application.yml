@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+#    oracle配置
+        driverClassName: oracle.jdbc.OracleDriver
+        url: jdbc:oracle:thin:@47.100.206.162:1521:xe
+        username: yss
+        password: yss
+
+
